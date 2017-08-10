@@ -3,11 +3,9 @@ var express=require('express');
 var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
-
-
 app.use(express.static('client'));
 app.get('/', function(req, res){
-  res.sendFile(__dirname+'/client/index.html');
+  res.sendFile(__dirname+'/client/html/index.html');
 });
   var names=[];
   var userGenerateId=[];
