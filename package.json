@@ -1,0 +1,12 @@
+{
+  "name": "chatApplication",
+  "description": "Chat Application ",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "http":"*"
+  }
+}
