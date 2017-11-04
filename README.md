@@ -1,4 +1,3 @@
-"# chatapplication" 
 Chat application using socket.io, Angular,express and Node. 
 
 Overview:
